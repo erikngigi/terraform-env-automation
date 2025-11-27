@@ -110,18 +110,18 @@ directory_structure_template() {
 	)
 
 	# Define an array of module names
-	modules=(
-		"network"
-		"security"
-		"management"
-		"compute"
+    modules=(
+        "compute"
 		"containers"
+		"database"
+		"management"
+		"network"
+		"notifications"
+		"scaling"
+		"security"
 		"severless"
 		"storage"
-		"traffic"
-		"scaling"
-		"database"
-		"notifications"
+        "traffic"
 	)
 
 	# Define an array of module filenames to create
